@@ -11,7 +11,7 @@ export default function Repo({ isOpen, onClose }) {
             <ModalHeader textAlign='center'>Repositorio del proyecto</ModalHeader>
 
             <ModalFooter display='flex' justifyContent='center'>
-                <a href="github.com" target="_blank">
+                <a href="https://github.com/alvarorom3/sudoku-vite-react" target="_blank">
                     <MainMenuButton backgroundColor={ENGINEERING_ORANGE} >
                         Repo <GithubIcon />
                     </MainMenuButton>
