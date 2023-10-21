@@ -1,0 +1,108 @@
+.cell {
+	margin: 0;
+	padding: 0;
+	color: rgb(70, 70, 70);
+	font-size: 1.4rem;
+	font-weight: 500;
+	height: 40px;
+	width: 30px;
+}
+
+.errorCell {
+	background-color: var(--cinnabar);
+	color: var(--color-3);
+}
+.sameRowCol {
+	background-color: #ffd791;
+}
+.sameValueNoteCell {
+	background-color: var(--color-2);
+}
+.sameValueCell {
+	color: var(--color-4);
+	font-weight: 500;
+}
+.selected {
+	background-color: #ffaa42;
+}
+
+.sudokuTable {
+	margin: 0;
+	padding: 0;
+	width: 100%;
+	/* color: rgb(56, 54, 205); */
+	font-family: 'Martian Mono', monospace;
+}
+
+.notesTd {
+	padding: 0;
+	margin: 0;
+	font-size: 0.5rem;
+	font-weight: 400;
+	color: rgba(102, 102, 102, 0.705);
+	height: 40px;
+	width: 30px;
+}
+.notesGrid {
+	margin: 0;
+	padding: 0;
+	display: grid;
+	grid-template-columns: 1fr 1fr 1fr;
+	grid-template-rows: 1fr 1fr 1fr;
+	align-items: center;
+	justify-content: center;
+}
+.noteCell {
+	margin: 0;
+	padding: 0;
+	justify-self: center;
+	align-self: center;
+	text-align: center;
+}
+
+.sudokuTable tr:nth-child(3),
+.sudokuTable tr:nth-child(6) {
+	border-bottom: 3px solid var(--color-1);
+}
+
+.sudokuTable td:nth-child(3),
+.sudokuTable td:nth-child(6) {
+	border-right: 3px solid var(--color-1);
+}
+
+@media (min-width: 450px) {
+	.cell {
+		font-size: 1.5rem;
+		height: 50px;
+		width: 40px;
+	}
+	.notesTd {
+		font-size: 0.6rem;
+		height: 50px;
+		width: 40px;
+	}
+}
+@media (min-width: 600px) {
+	.cell {
+		font-size: 1.6rem;
+		height: 60px;
+		width: 50px;
+	}
+	.notesTd {
+		font-size: 0.7rem;
+		height: 60px;
+		width: 50px;
+	}
+}
+@media (min-width: 750px) and (min-height: 1280) {
+	.cell {
+		font-size: 2rem;
+		height: 70px;
+		width: 60px;
+	}
+	.notesTd {
+		font-size: 1rem;
+		height: 70px;
+		width: 60px;
+	}
+}

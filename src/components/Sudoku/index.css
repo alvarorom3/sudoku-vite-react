@@ -1,0 +1,34 @@
+table {
+    margin: 0;
+    margin-inline: auto;
+    padding: 0;
+    /* max-width: 700px; */
+    border-collapse: collapse;
+    border-spacing: 0;
+    background-color: #f6eee9;
+}
+
+tr,
+td {
+    margin: 0;
+    padding: 0;
+}
+
+td {
+    border: 1px solid var(--color-1);
+    text-align: center;
+}
+
+.bgClear {
+    background-color: cornflowerblue;
+}
+.bgPencil {
+    background-color: chocolate;
+}
+
+@media (min-width: 750px) and (min-height: 1000) {
+    .puzzle {
+        display: grid;
+        grid-template-columns: repeat(5, 1fr);
+    }
+}

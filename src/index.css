@@ -1,0 +1,15 @@
+:root {
+	--color-1: #bf702a;
+	--color-2: #ffc47a;
+	--color-3: #f6efe9;
+	--color-4: #732f17;
+	--cinnabar: #bf2c1f;
+}
+
+.hidden {
+	display: none;
+}
+
+.show {
+	display: block;
+}
