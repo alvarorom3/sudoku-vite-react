@@ -4,7 +4,7 @@
 
 Podes ver el demo aquí: [Sudoku - alvarorom3](https://sudoku-alvarorom3.onrender.com/)
 
-Funciones de la app:
+Características de la app:
 
 * Solicitud de puzzle según la dificultad usando React Query.
 * Guardar el progreso de una partida.
